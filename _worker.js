@@ -1528,13 +1528,13 @@ function getSingConfig(userID, hostName) {
                 "format": "binary",
                 "tag": "geoip-cn",
                 "type": "remote",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
             },
             {
                 "format": "binary",
                 "tag": "geosite-cn",
                 "type": "remote",
-                "url": "https://raw.githubusercontent.com/xmdhs/sing-geosite/rule-set-Loyalsoldier/geosite-geolocation-cn.srs"
+                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xmdhs/sing-geosite/rule-set-Loyalsoldier/geosite-geolocation-cn.srs"
             }
         ],
         "rules": [
