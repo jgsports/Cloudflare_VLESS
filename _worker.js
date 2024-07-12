@@ -1163,12 +1163,12 @@ function getSingConfig(userID, hostName) {
         ],
         "servers": [
             {
-                "address": "https://1.1.1.1/dns-query",
+                "address": "https://cloudflare-dns.com/dns-query",
                 "detour": "select",
                 "tag": "remote"
             },
             {
-                "address": "https://223.5.5.5/dns-query",
+                "address": "https://dns.alidns.com/dns-query",
                 "detour": "direct",
                 "tag": "local"
             },
@@ -1251,14 +1251,14 @@ function getSingConfig(userID, hostName) {
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1268,14 +1268,14 @@ function getSingConfig(userID, hostName) {
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1285,14 +1285,14 @@ function getSingConfig(userID, hostName) {
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1302,14 +1302,14 @@ function getSingConfig(userID, hostName) {
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1319,14 +1319,14 @@ function getSingConfig(userID, hostName) {
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1336,14 +1336,14 @@ function getSingConfig(userID, hostName) {
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1353,14 +1353,14 @@ function getSingConfig(userID, hostName) {
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1369,19 +1369,19 @@ function getSingConfig(userID, hostName) {
             "tag": "Cloudflare-vless-tls-443",
             "tls": {
                 "enabled": true,
-                "server_name": "vless2.leslieblog.top"
+                "server_name": "${hostName}"
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1390,19 +1390,19 @@ function getSingConfig(userID, hostName) {
             "tag": "Cloudflare-vless-tls-2053",
             "tls": {
                 "enabled": true,
-                "server_name": "vless2.leslieblog.top"
+                "server_name": "${hostName}"
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1411,19 +1411,19 @@ function getSingConfig(userID, hostName) {
             "tag": "Cloudflare-vless-tls-2083",
             "tls": {
                 "enabled": true,
-                "server_name": "vless2.leslieblog.top"
+                "server_name": "${hostName}"
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1432,19 +1432,19 @@ function getSingConfig(userID, hostName) {
             "tag": "Cloudflare-vless-tls-2087",
             "tls": {
                 "enabled": true,
-                "server_name": "vless2.leslieblog.top"
+                "server_name": "${hostName}"
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1453,19 +1453,19 @@ function getSingConfig(userID, hostName) {
             "tag": "Cloudflare-vless-tls-2096",
             "tls": {
                 "enabled": true,
-                "server_name": "vless2.leslieblog.top"
+                "server_name": "${hostName}"
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
@@ -1474,19 +1474,19 @@ function getSingConfig(userID, hostName) {
             "tag": "Cloudflare-vless-tls-8443",
             "tls": {
                 "enabled": true,
-                "server_name": "vless2.leslieblog.top"
+                "server_name": "${hostName}"
             },
             "transport": {
                 "headers": {
                     "Host": [
-                        "vless2.leslieblog.top"
+                        "${hostName}"
                     ]
                 },
                 "path": "/?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "8820e16b-fbc2-49d3-90e4-eeeb8301c83c",
+            "uuid": "${userID}",
             "packet_encoding": "xudp"
         },
         {
