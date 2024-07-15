@@ -8,7 +8,7 @@ let userID = '7597a4e5-bee0-470d-b50d-ebf412c00b47';
 const bestCFIP = "www.visa.com.hk"
 
 // 用于 Cloudflare 网站的代理 IP
-const proxyIPs = ["cdn-all.xn--b6gac.eu.org"]; // （https://github.com/HappyLeslieAlexander/Cloudflare_VLESS/blob/main/proxyip.txt 中的地址也可以）
+const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org']; // （https://github.com/HappyLeslieAlexander/Cloudflare_VLESS/blob/main/proxyip.txt 中的地址也可以）
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://cloudflare-dns.com/dns-query'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
