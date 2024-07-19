@@ -3,7 +3,7 @@ name = "cf-worker-ws-dev" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
-compatibility_date = "2023-05-26"
+compatibility_date = "2024-07-19"
 
 [vars]
 UUID = "7597a4e5-bee0-470d-b50d-ebf412c00b47"
