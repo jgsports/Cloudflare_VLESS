@@ -69,7 +69,7 @@ UQC4r4gxAIbOTEEZGG-C1Ffn9inRo24J7qw3U0dFfaIfKyFr
 ## 联系
 Telegram: https://t.me/Depressed_LeslieAlexander/
 
-E-mail: https://github.com/HappyLeslieAlexander/
+E-mail: Leslie@leslieblog.top
 
 项目地址: https://github.com/HappyLeslieAlexander/Cloudflare_VLESS/
 
